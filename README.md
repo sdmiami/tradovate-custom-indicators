@@ -13,6 +13,76 @@ After successfully installation the indicator is located at under Volume-based -
 ##### Example
 ![](img/delta_histogram.png)
 
+## Delta Candle
+Delta is a key concept to understand when making trading decisions based upon traded volume.
+It’s the difference between the volume of market orders buying by lifting the offer price and the volume of market orders selling by hitting the bid price. 
+In other words, if Delta is greater than zero, we had more buying than selling and if Delta is less than zero, we had more selling than buying.
+
+##### Plots
+Delta candlestick on the chart & OHLC of delta on data box
+
+Historical data doesn't contains sequence of the volumes, so you won't see high and low of delta for historical data.
+**It's going to show candlestick delta chart only if you have it open.**
+
+##### How to install
+Indicator -> Explore Community Indicator  
+![](img/delta_candle_community_share.png)
+
+After successfully installation the indicator is located at under Volume-based --> Delta Candle
+ 
+##### Example
+![](img/delta_candle.png)
+
+## Delta Divergence
+##### Description
+Delta gives us a broad sense for each bar of whether we have more aggressive buying or selling. 
+We can compare Delta between bars to get a sense of whether supply and demand are rising or falling,
+Delta Divergence tells us when the delta across price bars is not moving in the same direction as price.
+
+Example:
+1. Bearish Divergence ==> Price has made a new high but there was more selling than buying.
+2. Bullish Divergence ==> Price has made a new low but there was more buying than selling. 
+
+##### Plots
+Red dot above the high when price makes higher high on negative delta  
+Green dot below the low when price makes lower low on positive delta
+
+##### How to install
+Indicator -> Explore Community Indicator  
+![](img/delta_divergence_community_share.png)
+
+After successfully installation the indicator is located at under Volume-based --> Delta Divergence
+ 
+##### Example
+![](img/delta_divergence.png)
+
+
+## The VPOC of each bar (the price with the highest volume)
+##### Description
+Volume point of control(VPOC), refers to the price at which the highest volume of trading occurred.
+This indicator will calculate VPOC in real time for each bar
+
+##### Parameter
+boxColor: The color of the box around VPOC
+boxWidth: Depends on your chart type, box width is adjustable for best view
+lineOpacity: The transparency of lines
+lineWidth: The thickness of lines
+
+##### Plots
+Rectangle box around VPOC for each bid/ask bar  
+**You can adjust the box width depends on the future contract you trade.**
+
+
+##### How to install
+Indicator -> Explore Community Indicator  
+![](img/VPOC_community_share.png)
+
+After successfully installation the indicator is located at under Volume-based --> VPOC (BAR)
+ 
+##### Example
+![](img/VPOC.png)
+
+
 ## MA Histogram
 Moving average histogram indicator will plot histogram and changes color when they cross each other, base upon your strategies if correct parameter were set, this can tell you when trend is changing.  
 
